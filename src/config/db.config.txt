@@ -1,0 +1,4 @@
+username=user18
+password=user18
+db=user18
+url=jdbc:mysql://sql.cs.usfca.edu/

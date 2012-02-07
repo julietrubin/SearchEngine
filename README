@@ -1,0 +1,62 @@
+Final Project for Software Engineering
+Prof. Rollins
+
+
+In the config file, db.config.txt, you can specify the username, password, database, and url of your mysql server. 
+The referenced libraries used in this program are jetty-6.1.21.jar, jetty-util-6.1.21 jar, 
+mysql-connector-java-5.1-java-5.1.10-bin.jar, servlet-api-2.5-20081211.jar
+
+
+Main Page
+text box to search query
+return an HTML page that lists links to all of the pages containing the query terms
+
+Registration page
+enter a username and password.  
+store this information
+
+Login Page
+log in by entering a username and password
+If the user is not registered
+	visit Registration Page  
+If the user is registered
+	your site will use cookies to track the user's session
+	
+Logout Link
+clear the session.
+
+Search History Page
+save any queries the user enters
+allow the user to view his/her search history.
+
+Account Maintenance
+allow a user to change his/her password and to clear his/her search history
+ 
+Page Preview 
+save a copy of each page you have crawled  
+In the search results:
+show a few lines of the text from each result page
+
+Page Visit History
+maintain a list of the links a user has followed:
+	results page provide links that direct the user back to your site
+	record that the user has followed the link
+	redirect the user to the real page
+
+Advanced Search
+allow the user to:
+	quotation marks
+	minus sign
+
+Results Per Page 
+Allow the user to select the number of results displayed on each page
+
+Administrator Interface
+Provide an administrator interface that allows an administrator with the ability to enter a new seed URL to start a new crawl  
+
+Your user account information and search histories will be stored in a mysql database. 
+You will use Servlets to dynamically generate web content and handle requests.
+Your server will take a seed URL as a command line parameter.  
+At startup, it will begin crawling the web starting at the given URL.  
+You may restrict the total number of pages crawled simply so you do not run out of memory.
+
